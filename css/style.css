@@ -403,7 +403,8 @@ nav {
     border-radius: var(--radius-lg);
     padding: 56px 48px;
     text-align: center;
-    margin: 24px 0 72px;
+    margin-top: 24px;
+    margin-bottom: 72px;
 }
 
 .newsletter h2 {
