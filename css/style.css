@@ -385,6 +385,7 @@ nav {
     font-weight: 600;
     font-size: 0.9rem;
     text-decoration: none;
+    margin-top: 16px;
     transition: gap 0.2s;
 }
 
@@ -698,7 +699,7 @@ footer {
     .hero h1 { font-size: 2rem; }
     .hero-stats { gap: 24px; }
     .hero-stat .num { font-size: 1.5rem; }
-    .product-grid { grid-template-columns: 1fr; }
+    .product-grid { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: 1fr; gap: 32px; }
     .pros-cons { grid-template-columns: 1fr; }
     .nav-links { gap: 14px; }
